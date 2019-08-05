@@ -1,2 +1,9 @@
-<h1>Homes#index</h1>
-<p>Find me in app/views/homes/index.html.erb</p>
+<% for i in 0..@finedust_to_array.length-1 %>
+    <div>
+        지역 : <%= @finedust_to_array[i][0] %> <span> / </span>
+        미세먼지(PM 1.0) : <%= @finedust_to_array[i][1] %> <span> / </span>
+        미세먼지(PM 2.5) : <%= @finedust_to_array[i][2] %> <span> / </span>
+        측정시간 : <%= @finedust_to_array[i][3] %>
+        <hr/>
+    </div>
+<% end %>
