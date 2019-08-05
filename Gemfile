@@ -63,3 +63,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'devise-i18n' # Devise 번역 Gem
+
+## DB 시각화
+gem 'rails_db'
+
+## 공공데이터 API 통신을 도와주는 Gem
+gem 'rest-client'
